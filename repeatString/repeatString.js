@@ -1,4 +1,4 @@
-var repeatString = function(word, times) {
+const repeatString = function(word, times) {
   let string = ''
   if (times <0)
     return 'ERROR'
